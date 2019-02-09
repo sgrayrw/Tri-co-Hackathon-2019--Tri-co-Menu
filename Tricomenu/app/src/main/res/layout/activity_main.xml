@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_dc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="HC DC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_erd"
+        app:layout_constraintEnd_toStartOf="@+id/button_nd"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/button_erd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="BMC ERDMAN"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/menu_window"
+        app:layout_constraintEnd_toStartOf="@+id/button_sharp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_dc" />
+
+    <Button
+        android:id="@+id/button_nd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="BMC New Dorm"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_sharp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_dc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/menu_window"
+        android:layout_width="349dp"
+        android:layout_height="454dp"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="vertical"
+        android:text="Choose your menu"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_sharp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SWAT Sharples"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/menu_window"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_erd"
+        app:layout_constraintTop_toBottomOf="@+id/button_nd" />
+
+    <Spinner
+        android:id="@+id/spinner_day"
+        android:layout_width="149dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginRight="262dp"
+        android:layout_marginBottom="8dp"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button_dc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
