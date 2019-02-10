@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<title>The Dash :: Sharples</title>
+	<link href="/stylesheets/weekly-menu.css" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+	
+	<script src="/javascripts/jquery-1.11.3.min.js"></script>
+	<script src="/javascripts/bootstrap.min.js"></script>
+	<script src="/javascripts/jquery-ui.min.js"></script>
+  </head>
+  <body>
+  	<nav class="navbar navbar-default navbar-side-left" role="navigation">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dash-navbar-collapse" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <div class="navbar-brand visible-xs visible-sm"><a href="/"><img src="/images/thedashlogo_tabx2.png" alt="The Dash"></a></div>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="dash-navbar-collapse">
+	      <ul class="nav navbar-nav">
+			<li class="active visible-md visible-lg service-tab"><a href="/" title="The Dash" id="dash-link" class="sprite sprite-dash-logo-png">The Dash <span class="sr-only">(current)</span></a></li>
+			<li class="service-tab"><a href="http://gmail.swarthmore.edu/" title="Gmail" target="_blank" id="gmail-link" class="sprite sprite-gmail-logo-png">Gmail</a></li>
+			<li class="service-tab"><a href="http://apps.swarthmore.edu/" title="Google Drive" target="_blank" id="googledrive-link" class="sprite sprite-googledrive-logo-png"><span class="hidden-md hidden-lg">Google </span>Drive</a></li>
+			<li class="service-tab"><a href="https://moodle.swarthmore.edu/" id="moodle-link" title="Moodle" target="_blank" class="sprite sprite-moodle-logo-png">Moodle</a></li>
+			<li class="service-tab"><a href="https://myswat.swarthmore.edu/pls/twbkwbis.P_WWWLogin" title="mySwarthmore" target="_blank" id="myswat-link" class="sprite sprite-myswat-logo">mySwarthmore</a></li>
+			<li class="service-tab"><a href="http://tripod.swarthmore.edu/" title="TriCollege Libraries" target="_blank" id="tripod-link" class="sprite sprite-tripod-logo-png">TriCollege Libraries</a></li>
+			<li class="service-tab"><a href="https://onecard.swarthmore.edu/" title="OneCard Center" target="_blank" id="onecard-link" class="sprite sprite-onecard-logo">OneCard<br>Center</a></li>
+
+			<li class="visible-xs visible-sm"><a href="http://www.swarthmore.edu">Swarthmore Home</a></li>
+			<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+
+	      <li><a href="https://apex.swarthmore.edu/prod/apex/f?p=FACULTY_SERVICES_2" title="Faculty Services" target="_blank" id="facservices2-link">Faculty Services</a></li>
+				<li><a href="https://swatcentral.swarthmore.edu/login" title="Swat Central - reserve a space or publicize an event" target="_blank" id="swat-central-link">Swat Central</a></li>
+				<li><a href="https://iam-api.interfolio.com/users/sso_redirect?tenant_id=15441" title="Interfolio" target="_blank" id="interfolio-link">Interfolio</a></li>
+				<li><a href="http://lynda.swarthmore.edu" title="Lynda.com" target="_blank" id="lynda-link">Lynda.com® Training</a></li>
+				<li><a href="http://swarthmore.zoom.us" title="Zoom Video Conferencing Service" target="_blank" id="zoom-link">Zoom Video Conferencing</a></li>
+				<li><a href="http://www.trico.haverford.edu/cgi-bin/courseguide/cgi-bin/search.cgi" title="Tri-Co Course Guide" target="_blank" id="trico-link">TriCollege Course Guide</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+
+	      <form action="https://www.swarthmore.edu/search"  class="navbar-form navbar-left hidden-md hidden-lg" role="search">
+	        <div class="input-group">
+		        <label for="swat-search-input-mobile" class="sr-only">Search Swarthmore</label>
+		        <input type="text" id="swat-search-input-mobile" name="keys" class="form-control" placeholder="Search Swarthmore.edu">
+		        <div class="input-group-btn">
+	                <button type="submit" class="btn btn-default">
+	                  <span class="sr-only">Submit Search</span>
+	                  <span class="glyphicon glyphicon-search"></span>
+	                </button>
+      			</div>
+	        </div>
+      	  </form>
+	      <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+        	<li><a href="http://www.swarthmore.edu" class="swat-home-nav">Swarthmore Home</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right visible-xs visible-sm">
+        	<li><a href="tel:+1-610-328-8333" class="nav-emergency-tel">Emergency (Dial 1-610-328-8333)</a></li>
+          </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+    <div id="dashboard-cal-content" class="container-fluid sharples">
+
+	<div class="cal-info-bar row">
+	<div class="col-xs-3 col-sm-2"">
+		<a class="btn btn-primary" href="/calendar/1768/2019-02-08" role="button"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span><span class="hidden-xs"> Prev</span></a>
+	</div>
+	<div class="col-sm-2 hidden-xs">
+		<div class="btn-group btn-group-justified">
+			<a href="/" class="btn btn-justified btn-default"><span class="glyphicon glyphicon-home" aria-hidden="true"><span class="sr-only"></span></span><span class="hidden-sm"> Home</span></a>
+		</div>
+	</div>
+	<div class="col-xs-15">
+		
+		<div class="btn-group btn-group-justified dash-cal-view-select">
+
+			
+			<a href="/calendar/1768/2019-02-09" class="btn btn-default active">Day</a>
+			<a href="/calendar/1768/2019-W06" class="btn btn-default">Week</a>
+			<a href="/calendar/1768/2019-02" class="btn btn-default">Month</a>
+			
+		 </div>
+	</div>
+	<div class="col-xs-3 col-sm-2">
+		<a class="btn btn-primary pull-right" href="/calendar/1768/2019-02-10" role="button"><span class="hidden-xs">Next </span><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+	</div>
+</div>
+<h1 class="cal-header">Sharples - Saturday, February 9th 2019</h1>
+
+
+ 		<div class="row">
+
+			<div class="day">
+ 				
+<div id="day-2-9"class="panel panel-default today panel-calendar-day day-of-week-sat" title="today">
+  <div class="panel-heading">
+    
+    <h2 class="panel-heading-title">  
+      Saturday 2/9<span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="sr-only">today</span>
+    </h2></div>
+  <div class="panel-body">
+
+	
+<div class="dash-cal-event">
+  <div id="dash-event-63099-2" class="panel panel-default">
+    <div class="panel-heading">
+      
+      <h4>	
+    	Breakfast
+      </h4>
+    </div>
+    <div class="panel-body">
+    	<div class="event-time">
+    		7:30am - 9:30am
+    	</div>
+    	<div class="event-body">
+      	
+      </div>
+    </div>
+  </div>
+</div>
+
+	
+<div class="dash-cal-event">
+  <div id="dash-event-63759-0" class="panel panel-default">
+    <div class="panel-heading">
+      
+      <h4>	
+    	Lunch
+      </h4>
+    </div>
+    <div class="panel-body">
+    	<div class="event-time">
+    		10:30am - 1:30pm
+    	</div>
+    	<div class="event-body">
+      	<ul>
+	<li>Scrambled Eggs</li>
+	<li>Bacon and Chicken Sausage</li>
+	<li>Homefries</li>
+	<li>Barbecued Tofu (v)</li>
+	<li>Waffles and French Toast with Fruit Toppings</li>
+	<li>Cauliflower (v), Edamame Succotash</li>
+</ul>
+<br />
+(v)&nbsp;<em>denotes vegan options.</em>
+      </div>
+    </div>
+  </div>
+</div>
+
+	
+<div class="dash-cal-event">
+  <div id="dash-event-63760-0" class="panel panel-default">
+    <div class="panel-heading">
+      
+      <h4>	
+    	Dinner
+      </h4>
+    </div>
+    <div class="panel-body">
+    	<div class="event-time">
+    		4:00pm - 7:00pm
+    	</div>
+    	<div class="event-body">
+      	<ul>
+	<li>Curried Chicken and Potatoes</li>
+	<li>Basmati Rice (v)</li>
+	<li>Chana Masala (v)</li>
+	<li>Aloo Gobi (v)</li>
+	<li>Chicken Caesar Salad Bar</li>
+	<li>Peas (v), Spinach (v)</li>
+</ul>
+<br />
+(v)&nbsp;<em>denotes vegan options.</em>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+ 			</div>
+
+		</div>
+	</div>
+	<!-- Google Analytics -->
+  	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-19785923-13', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script src="/javascripts/analytics.js"></script>
+  </body>
+</html>

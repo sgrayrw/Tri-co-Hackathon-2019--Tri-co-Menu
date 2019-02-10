@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         String shrp_button = "SWAT SHARPLES";
         final Button shrp = findViewById(R.id.button_sharp);
-        SpannableString spanString_shrp = new SpannableString(erd_button);
+        SpannableString spanString_shrp = new SpannableString(shrp_button);
         spanString_shrp.setSpan(new StyleSpan(Typeface.BOLD), 0, spanString_shrp.length(), 0);
         shrp.setText(spanString_shrp);
 
